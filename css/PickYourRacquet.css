@@ -1,0 +1,70 @@
+/* ---------------------------- Pick Your Racquet Button Code ---------------------------- */
+/* Reference: https://www.w3schools.com/css/css3_buttons.asp */
+/* Create a button*/
+
+.PYRButton {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #fd4848;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 100%;
+}
+
+.PYRButton:hover {
+    background-color: #fc3b3b
+}
+
+.PYRButton:active {
+    background-color: #ff0000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 2% auto;
+    text-align: center;
+    background-color: rgb(255, 185, 185);
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(43, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+button.selected {
+    background-color: #f10000;
+    color: white;
+}
+
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10% auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
