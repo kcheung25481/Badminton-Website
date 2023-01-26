@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Intermediate Guide</title>
+
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css\Stylesheet.css"/>
+    <link rel="stylesheet" href="css\jQuery.css"/>
+</head>
+
+<body id="background">
+
+    <!-- hotbar element -->
+    <div>
+        <ul class="hotbar">
+            <li><a href="Home.html">Home</a></li>
+            
+            <li><a href="#" id="disabled">Guides</a>
+                <ul>
+                    <li><a href="HowToPlay.html">How to Play</a></li>
+                    <li><a href="#" id="disabled">Develop your skills</a>
+                        <ul>
+                            <li><a href="guideBeginner.html">Beginner</a></li>
+                            <li><a href="guideIntermediate.html">Intermediate</a></li>
+                            <li><a href="guideAdvanced.html">Advanced</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#" id="disabled">Equipment</a>
+                <ul>
+                    <li><a href="RacquetReccomendations.html">Racquet Reccomendations</a>
+                        <ul>
+                            <li><a href="PickYourRacquet.html">Pick your Racquet</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="AdditionalEquipment.html">Additional Equipment</a></li>
+                </ul>
+            </li>
+
+            <li><a href="TournamentVideos.html">Tournament Videos</a></li>
+            <li><a href="AdditionalResources.html">Additional Resources</a></li>
+            <li><a href="News.html">News</a></li>
+        </ul>
+    </div>
+
+    <script src="JavaScript/jquery-3.6.3.min.js"></script>
+    <script src="JavaScript/jQueryResize.js"></script>
+    <script src="JavaScript/GoogleAPI.js"></script>
+
+    <h1 id="title">Intermediate Guides</h1>
+
+    <button id="zoomIn">Zoom In</button>
+    <button id="zoomOut">Zoom Out</button>
+
+    <button id="tts">Text-to-Speech</button>
+
+    <button id="toFrench">French</button>
+    <button id="toEnglish">English</button>
+
+    <div class="grid-container">
+        <div class="text">
+            <h1 id="subtitle">Intermediate Shots</h1>
+            <p id="body"> Next, intermediate players can work on more complicated shots. Drop shots are a powerful tool to add to a badminton 
+                player's arsenal, as it allows for mind games with the opponent. In a similar vein it is also good to learn smashes to kill the 
+                bird and win rallies.
+            </p>
+            
+        </div>
+
+        <div class="image">
+            <img src="images\placeholder.png" alt="Intermediate Shots" width="100%" height="100%">
+            <!--https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image.png-->
+        </div>
+
+        <div class="text">
+            <h1 id="subtitle">Intermediate Footwork</h1>
+            <p id="body"> Good footwork is what seperates badminton players from each other. By being able to move efficiently and effectively 
+                around the court is what allows for better shots and won games. Intermediate players should begin to add backwards, forwards, and 
+                sideway skips which allows for fast and explosive movement around the court.
+            </p>
+            
+        </div>
+
+        <div class="image">
+            <img src="images\placeholder.png" alt="Intermediate Footwork" width="100%" height="100%">
+            <!--https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image.png-->
+        </div>
+
+    </div>
+
+    <!--Scroll to Top Button, Taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="toTopButton" title="Go to top">To Top</button>
+    <script type="text/javascript" src="JavaScript/toTopButton.js"></script>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <form id="emailContact" method="post" action="mailto:kcheung25481@gmail.com">
+            <span id="fullName">
+                <label for="name">Full Name:</label>
+                <input type="text" id="fullName" name="fullName">
+            </span>
+            <span id="fullName">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </span>
+            <span id="fullName"><input type="submit" value="Submit"></span>
+        </form>
+
+        <p id="body">Kevin Cheung - Last Modified 2022/11/27</p>
+    </footer>
+
+    
+
+</body>
+</html>

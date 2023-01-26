@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Additional Equipment</title>
+
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css\Stylesheet.css"/>
+</head>
+
+<body id="background">
+
+    <!-- hotbar element -->
+    <div>
+        <ul class="hotbar">
+            <li><a href="Home.html">Home</a></li>
+            
+            <li><a href="#" id="disabled">Guides</a>
+                <ul>
+                    <li><a href="HowToPlay.html">How to Play</a></li>
+                    <li><a href="#" id="disabled">Develop your skills</a>
+                        <ul>
+                            <li><a href="guideBeginner.html">Beginner</a></li>
+                            <li><a href="guideIntermediate.html">Intermediate</a></li>
+                            <li><a href="guideAdvanced.html">Advanced</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#" id="disabled">Equipment</a>
+                <ul>
+                    <li><a href="RacquetReccomendations.html">Racquet Reccomendations</a>
+                        <ul>
+                            <li><a href="PickYourRacquet.html">Pick your Racquet</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="AdditionalEquipment.html">Additional Equipment</a></li>
+                </ul>
+            </li>
+
+            <li><a href="TournamentVideos.html">Tournament Videos</a></li>
+            <li><a href="AdditionalResources.html">Additional Resources</a></li>
+            <li><a href="News.html">News</a></li>
+        </ul>
+    </div>
+
+    <h1 id="title">Additional Equipment</h1>
+
+    <div id="EquipmentList">
+
+        <div class="responsive">
+            <div class="gallery">
+                <h1 class=imagetitle>Yonex Mavis 300 Shuttlecocks</h1>
+
+                <a target="_blank" href="images\yonexbirdies.jpg">
+                    <img src="images\yonexbirdies.jpg" alt="Yonex Mavis 300" width="200" height="200">
+                    <!--https://fgl.scene7.com/is/image/FGLSportsLtd/116280001_10_a?bgColor=0,0,0,0&resMode=sharp2&op_sharpen=1&hei=520-->
+                </a>
+                <div class="desc">
+                    <p class="imagedesc"><strong>Price:</strong> $15</p>
+                    <p class="imagedesc"><strong>Recommended for</strong>: Beginner - Intermediate</p> 
+                    <p class="imagedesc"><strong>Overview:</strong> The Yonex Mavis 300 Shuttleocks are a great purchase for anyone looking for some solid reliable shuttlecocks.
+                        It offers a long life with each shuttlecock, and comes in two colours for the playing environment. </p>
+                </div>
+            </div>
+        </div>     
+        
+        <div class="responsive">
+            <div class="gallery">
+                <h1 class=imagetitle>Yonex Badminton Over Grip</h1>
+
+                <a target="_blank" href="images\yellowgrip.jpg">
+                    <img src="images\yellowgrip.jpg" alt="Yonex Badminton Over Grip" width="200" height="200">
+                    <!--https://fgl.scene7.com/is/image/FGLSportsLtd/331301183_30_a?bgColor=0,0,0,0&resMode=sharp2&op_sharpen=1&hei=520-->
+                </a>
+                <div class="desc">
+                    <p class="imagedesc"><strong>Price:</strong> $9</p>
+                    <p class="imagedesc"><strong>Recommended for:</strong> All</p> 
+                    <p class="imagedesc"><strong>Overview:</strong> An overgrip is a grip applied over a standard badminton grip on a racquet. This allows for a different texture, 
+                    tailored to the buyer, as well as a thicker handle for those with larger hands</p>
+                </div>
+            </div>
+        </div>   
+        
+        <div class="responsive">
+            <div class="gallery">
+                <h1 class=imagetitle>Yonex BG 80 Badminton String</h1>
+
+                <a target="_blank" href="images\string.jpg">
+                    <img src="images\string.jpg" alt="Yonex BG 80 Badminton String" width="200" height="200">
+                    <!--https://fgl.scene7.com/is/image/FGLSportsLtd/330823882_10_a?bgColor=0,0,0,0&resMode=sharp2&op_sharpen=1&hei=520-->
+                </a>
+                <div class="desc">
+                    <p class="imagedesc"><strong>Price:</strong> $20</p>
+                    <p class="imagedesc"><strong>Recommended for:</strong> Advanced</p> 
+                    <p class="imagedesc">Overview:</strong> BG 80 Badminton string is for those who seek a greater amount of control on their racquet. Typically factory strung racquets are 
+                    not of the highest quality. Buy purchasing string and stringing your racquet yourself, you are able to acheive a more personalized feel</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!--Scroll to Top Button, Taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="toTopButton" title="Go to top">To Top</button>
+    <script type="text/javascript" src="JavaScript/toTopButton.js"></script>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <form id="emailContact" method="post" action="mailto:kcheung25481@gmail.com">
+            <span id="fullName">
+                <label for="name">Full Name:</label>
+                <input type="text" id="fullName" name="fullName">
+            </span>
+            <span id="fullName">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </span>
+            <span id="fullName"><input type="submit" value="Submit"></span>
+        </form>
+
+        <p id="body">Kevin Cheung - Last Modified 2022/11/27</p>
+    </footer>
+
+    
+
+</body>
+</html>
